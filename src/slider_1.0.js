@@ -15,7 +15,7 @@ breakpoints: {
   // when window width is >= 320px
   478: {
     slidesPerView: "auto",
-    spaceBetween: 24,
+    spaceBetween: 20,
   }
 }
 });
