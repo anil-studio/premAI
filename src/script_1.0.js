@@ -267,7 +267,7 @@ function initHeroMain() {
 
     const tl = gsap.timeline();
 
-    tl.from([title, paragraph, eyebrow, btnList, marquee], {opacity: 0, stagger: 0.1}, 0.75)
+    tl.from([title, paragraph, eyebrow, btnList, marquee], {opacity: 0}, 0.75)
   
    /* tl.from(titleLines, {
       yPercent: 120,
