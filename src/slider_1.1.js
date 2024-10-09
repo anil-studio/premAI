@@ -14,7 +14,7 @@ navigation: {
 breakpoints: {
   479: {
     slidesPerView: "auto",
-    spaceBetween: 220,
+    spaceBetween: 20,
   }
 }
 });
