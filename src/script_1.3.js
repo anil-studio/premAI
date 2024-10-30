@@ -453,11 +453,12 @@ gsap.from(rectangles, {
   function initContact() {
     let content = document.querySelector('[data-contact-hero-content]')
     if(!content) {return;}
+    let ctaWrap = document.querySelector('[data-contact-cta-wrap]')
     let backgrounds = document.querySelectorAll('[data-contact-background]')
 
     let tl = gsap.timeline()
 
-    tl.from([content, backgrounds], {opacity: 0}, 0.5)
+    tl.from([content, backgrounds, ctaWrap], {opacity: 0}, 0.5)
   }
 
 
